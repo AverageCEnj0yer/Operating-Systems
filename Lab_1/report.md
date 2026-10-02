@@ -27,7 +27,7 @@ ls -la ~
 cd /etc && ls | head
 ```
 
-Example output:
+Output:
 
 ```text
 /home/findredhundred/os-lab1
@@ -45,7 +45,7 @@ ls -l
 rm renamed.txt
 ```
 
-Example output:
+Output:
 
 ```text
 -rw-rw-r-- 1 findredhundred findredhundred 24 Sep 29 01:10 note.txt
@@ -61,7 +61,7 @@ ls -l note.txt
 chmod 644 note.txt
 ```
 
-Example output:
+Output:
 
 ```text
 -rw------- 1 findredhundred findredhundred 0 Sep 29 01:30 note.txt
@@ -82,7 +82,7 @@ ps aux | wc -l
 top
 ```
 
-Example output:
+Output:
 
 ```text
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
@@ -101,7 +101,7 @@ ps -ef | grep sleep
 kill 14234
 ```
 
-Example output:
+Output:
 
 ```text
 [1] 35145
@@ -121,7 +121,7 @@ cat /proc/$PID/status | head -20
 kill $PID
 ```
 
-Example output:
+Output:
 
 ```text
 Name:   sleep
@@ -143,7 +143,7 @@ free -h
 cat /proc/meminfo | head -6
 ```
 
-Example output:
+Output:
 
 ```text
 total        used        free      shared  buff/cache   availableMem:           
@@ -168,7 +168,7 @@ grep VmRSS /proc/$PID/status
 kill $PID
 ```
 
-Example output:
+Output:
 
 ```text
 VmRSS: 8016 kB
@@ -190,7 +190,7 @@ ls -l /dev | head
 mount | head
 ```
 
-Example output:
+Output:
 
 ```text
 /dev/sda2   40G   7.8G   31G   21%   /
