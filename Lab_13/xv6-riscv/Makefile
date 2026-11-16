@@ -153,6 +153,8 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_trace\
+	$U/_semtest\
+	$U/_mix\
 	$U/_logstress\
 	$U/_forphan\
 	$U/_dorphan\
